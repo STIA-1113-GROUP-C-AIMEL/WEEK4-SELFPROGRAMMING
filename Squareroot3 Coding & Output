@@ -1,0 +1,59 @@
+package selfProgramming;
+
+public class Squareroot {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char x = 'a';
+        char y = 'b';
+        char z = 'c';
+        double i = y*y;
+        double j = 4*x*z;
+        double k =  -(i - j);
+        double kk = Math.sqrt(k);
+        double l = -y + kk;
+        double m = 2*x;
+        double mm = l/m; 
+        int ascii = (int)y;
+        int asci = (int)x;
+        int asciii = (int)z;
+        double asci4 = Math.pow(asci, asciii);
+        double asci5 = Math.min(x,y);
+        double asci6 = Math.max(x, y);
+        double ijk = 112.257;
+        double asci7 = Math.round(ijk);
+        
+        System.out.println("y is : " + ascii);
+        System.out.println("x is : " + asci);
+        System.out.println("z is : " + asciii);
+        System.out.println("i is : " + i);
+        System.out.println("j is : " + j);
+        System.out.println("k is : " + k);
+        System.out.println("kk is : " + kk);
+        System.out.println("l is : " + l);
+        System.out.println("m is : " + m);
+        System.out.println("mm is : " + mm);
+        System.out.println("Formula of power is: "+ asci4);
+        System.out.println("The minimum number is: "+ asci5);
+        System.out.println("The maximum number is: "+ asci6);
+        System.out.println("The round number is: "+ ijk);
+	}
+
+}
+
+OUTPUT
+
+y is : 98
+x is : 97
+z is : 99
+i is : 9604.0
+j is : 38412.0
+k is : 28808.0
+kk is : 169.72919607421701
+l is : 71.72919607421701
+m is : 194.0
+mm is : 0.36973812409390217
+Formula of power is: 4.902320404681006E196
+The minimum number is: 97.0
+The maximum number is: 98.0
+The round number is: 112.257
