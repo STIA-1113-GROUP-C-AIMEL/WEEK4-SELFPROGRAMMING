@@ -1,0 +1,66 @@
+package personal;
+
+public class WhileLoop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//print out 5 number
+		 int i = 0;
+		 while (i < 6) {
+		    System.out.println(i);
+		    i++;
+		 }
+		 
+		 // with condition
+		 System.out.println();
+		 for (int u = 0; u <= 10; u = u + 2) {
+		      System.out.println(u);
+		     
+		    }  
+		 
+		 // using data type String
+		 System.out.println();
+		 String[] cars = {"Myvi", "Persona", "Saga", "Ativa"};
+		 for (String c : cars) {
+		 System.out.println(c);
+		 
+		    }   
+		 
+		 //with condition
+		 System.out.println();
+		 for (int k = 0; k < 10; k++) {
+		      if (k == 4) {
+		        break;
+		      }
+		      System.out.println(k);
+		    }  
+	}
+
+}
+ 
+ OUTPUT
+ 
+0
+1
+2
+3
+4
+5
+
+0
+2
+4
+6
+8
+10
+
+Myvi
+Persona
+Saga
+Ativa
+
+0
+1
+2
+3
+
