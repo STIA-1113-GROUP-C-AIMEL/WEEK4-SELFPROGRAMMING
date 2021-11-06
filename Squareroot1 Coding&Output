@@ -1,0 +1,43 @@
+package personal;
+
+public class Squareroot2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Declare Variables
+				double a = 1;
+				double b = 5;
+				double c = 6;
+				
+				double disc = 0; //stores a temporary value to check
+				double x1 = 0;
+				double x2 = 0;
+				
+	
+		//Process Inputs
+				disc = Math.pow(b,2)-4*a*c;
+				
+				if (disc >= 0) {
+					x1 = (-b+Math.sqrt(b*b-4*a*c))/(2*a);
+					x2 = (-b-Math.sqrt(b*b-4*a*c))/(2*a);
+			//Output results
+					System.out.println("x1 = "+ x1);
+					System.out.println("x2 = "+ x2);
+				
+				}
+				else if (disc ==0) {
+					x1 = (-b+Math.sqrt(b*b-4*a*c))/(2*a);
+					System.out.println("There is one real root at x = "+x1);
+					
+				}
+				else { 
+				System.out.println("There are no real roots");
+				}
+	}
+
+}
+
+OUTPUT
+
+x1 = -2.0
+x2 = -3.0
