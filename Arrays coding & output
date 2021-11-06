@@ -1,0 +1,41 @@
+package personal;
+
+import java.util.ArrayList;
+
+public class QC6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// to add
+		ArrayList fruitList = new ArrayList();
+		fruitList.add("Mangosteen");
+		fruitList.add("Mango");
+		fruitList.add("Durian");
+		fruitList.add("Rambutan");
+		fruitList.add("Pomelo");
+		
+		 // to remove
+	 //  fruitList.remove("Mango");
+	    
+	    
+	//	fruitList.clear();
+		
+		// to know that fruit are available
+		System.out.println(fruitList.contains("Durian"));
+		System.out.println(fruitList.contains("Strawberry"));
+		
+		// print out all of fruitlist
+		System.out.println(fruitList);
+		
+		
+		
+
+   }
+}
+
+OUTPUT
+
+true
+false
+[Mangosteen, Mango, Durian, Rambutan, Pomelo]
