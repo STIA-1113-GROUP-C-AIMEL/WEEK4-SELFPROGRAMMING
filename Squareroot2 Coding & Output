@@ -1,0 +1,55 @@
+package personal;
+
+import java.util.Scanner;
+
+public class Squareroot {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner s = new Scanner(System.in);
+		
+	//Declare variable
+		
+		double a, b, c, disc, x1, x2;
+		
+	//Take Inputs
+		System.out.println("Input the value of a, b and c for ax^bx+c = 0");
+		System.out.print("Input a: ");
+		a = s.nextDouble();
+		System.out.print("Input b: ");
+		b = s.nextDouble();
+		System.out.print("Input c: ");
+		c = s.nextDouble();
+
+		
+	//Process Inputs
+		disc = Math.pow(b,2)-4*a*c;
+		
+		if (disc >= 0) {
+			x1 = (-b+Math.sqrt(b*b-4*a*c))/(2*a);
+			x2 = (-b-Math.sqrt(b*b-4*a*c))/(2*a);
+	//Output results
+			System.out.println("x1 ="+ x1);
+			System.out.println("x2 = "+ x2);
+		
+		}
+		else if (disc ==0) {
+			x1 = (-b+Math.sqrt(b*b-4*a*c))/(2*a);
+			System.out.println("There is one real root at x = "+x1);
+			
+		}
+		else { 
+		System.out.println("There are no real roots");
+		}
+	}
+
+}
+
+OUTPUT
+
+Input the value of a, b and c for ax^bx+c = 0
+Input a: 1
+Input b: 5
+Input c: 6
+x1 =-2.0
+x2 = -3.0
