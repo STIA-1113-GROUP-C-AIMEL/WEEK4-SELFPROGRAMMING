@@ -1,0 +1,47 @@
+package selfProgramming;
+
+public class DataConversion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int dollars = 50;
+		double money = dollars;
+		
+		System.out.print("The money will become dollars which is ");
+		System.out.print(dollars);
+
+		int cash = 500;
+		int cash2 = 205;
+		double quid = cash;
+		float quid2 = cash2;
+		double quid3 = quid + cash;
+		
+		System.out.print("The results of the calculation is ");
+		System.out.println(quid + quid2);
+		
+		float ringgit = 5000;
+		short result = (short) ringgit;
+		System.out.println(result);
+		
+		byte data1 = 50;
+		double data2 = 12;
+		
+		double data3 = (double) data2;
+		
+		System.out.print("The answer is ");
+		System.out.println(data3 + data1 - 0.50);
+		System.out.println("The answer is " + quid3);
+		
+		
+		
+	}
+
+}
+
+OUTPUT
+
+The money will become dollars which is 50The results of the calculation is 705.0
+5000
+The answer is 61.5
+The answer is 1000.0
